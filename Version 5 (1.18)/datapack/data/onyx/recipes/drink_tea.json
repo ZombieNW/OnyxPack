@@ -1,0 +1,24 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "minecraft:iron_ingot",
+		"data": {
+			"CustomModelData":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:azalea_leaves"   
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "data": {
+            "display": {
+				"Name": "{\"text\":\"Tea\",\"italic\":\"false\"}"
+			},
+			"CustomModelData": 1,
+			"isInMug":1,
+			"CustomPotionEffects": [{"Id":23,"Amplifier":1,"Duration":100}],
+			"CustomPotionColor":16777215
+        }
+    }
+}

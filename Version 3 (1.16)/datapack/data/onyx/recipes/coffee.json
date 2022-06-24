@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:potion"
+        },
+        {
+            "item": "minecraft:cocoa_beans"
+        }
+    ],
+    "result": {
+        "item": "minecraft:potion",
+        "count": 1,
+		"data": {
+			"display": {
+				"Name": "{\"text\":\"Coffee\",\"italic\":false}"
+			},
+			"CustomModelData":1,
+			"CustomPotionEffects": [{"Id":1,"Amplifier":2,"Duration":200}],
+			"CustomPotionColor": 16777215
+		}
+    }
+}

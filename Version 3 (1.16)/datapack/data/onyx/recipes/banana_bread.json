@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:apple",
+			"data":{
+				"CustomModelData": 1
+			}
+        },
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "minecraft:sugar"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cooked_porkchop",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Banana Bread\",\"italic\":false}"
+			},
+			"CustomModelData": 4
+		}
+    }
+}

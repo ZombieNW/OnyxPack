@@ -1,0 +1,1 @@
+give @p item_frame{display:{Name:'{"text":"Lamp","italic":false}'},CustomModelData:103b,EntityTag:{Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:103b}},Invulnerable:1b,Invisible:1b,Tags:["lamp"],Fixed:1b}} 1

@@ -1,0 +1,24 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:diamond_leggings"
+    },
+    "ingredient": {
+        "item": "minecraft:blue_dye",
+		"data": {
+			"CustomModelData":2
+		}	
+    },
+	"result": {
+        "item": "minecraft:diamond_leggings",
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Enderite Leggings\",\"italic\":false}"
+			},
+			"$": "$ base",
+			"CustomModelData":1,
+			"AttributeModifiers": [{"AttributeName":"generic.armor","Name":"generic.armor","Amount":7,"Operation":0,"UUID":[1996973360,-498643249,-2666680755,1617878111,"nbtcrafting:array_type=i"],"Slot":"legs"},{"AttributeName":"generic.armor_toughness","Name":"generic.armor_toughness","Amount":4,"Operation":0,"UUID":[1996973360,-498643249,-2945680755,1617878111,"nbtcrafting:array_type=i"],"Slot":"legs"}]
+		}
+    },
+    "levels": 3
+}

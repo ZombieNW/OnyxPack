@@ -1,0 +1,26 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:enchanted_book",
+		"data":{
+			"speed2Enchant":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:potion",
+		"data":{
+			"Potion": "minecraft:strong_swiftness"
+		}
+    },
+    "result": {
+        "item": "minecraft:enchanted_book",
+		"data": {
+			"speed3Enchant":1,
+			"Enchantments": [{}],
+			"display": {
+				"Lore": ["{\"text\":\"Speed III\",\"color\":\"gray\",\"italic\":false}"]
+			}
+        }
+    },
+    "levels": 1
+}

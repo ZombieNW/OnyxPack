@@ -1,0 +1,3 @@
+kill @e[type=item,distance=0..2,sort=nearest,limit=1,nbt={Item:{id:"minecraft:dropper",Count:1b}}]
+summon item ~ ~ ~ {Item:{id:"minecraft:item_frame",Count:1b,tag:{display:{Name:'{"text":"Dimension Extractor","color":"white"}'},CustomModelData:109b,Enchantments:[{}],EntityTag:{Tags:["dimension_extractor"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:109b}},Invulnerable:1b,Invisible:1b,Fixed:1b}}}}
+kill @s

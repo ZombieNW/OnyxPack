@@ -1,0 +1,26 @@
+{
+	"parent": "headsman:mob",
+	"criteria": {
+		"gold": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"direct_entity": {
+						"nbt": "{SelectedItem:{tag:{headmanEnchant:1b}}}"
+					}
+				},
+				"entity": {
+					"type": "minecraft:trader_llama",
+					"nbt": "{Variant:1}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["gold"]
+	],
+	"rewards": {
+			"function": "headsman:revoke_advance",
+			"loot": ["headsman:trader_llama_white"]
+	}
+}

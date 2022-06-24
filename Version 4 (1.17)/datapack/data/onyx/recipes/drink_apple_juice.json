@@ -1,0 +1,19 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "minecraft:glass_bottle"
+    },
+    "ingredient": {
+        "item": "minecraft:apple"   
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "data": {
+            "display": {
+				"Name": "{\"text\":\"Apple Juice\",\"italic\":\"false\"}"
+			},
+			"CustomPotionEffects": [{"Id":8,"Amplifier":0,"Duration":600}],
+			"CustomPotionColor":14654528
+        }
+    }
+}

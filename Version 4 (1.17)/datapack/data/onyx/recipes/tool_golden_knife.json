@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i",
+        "/"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:gold_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_sword",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Golden Knife\",\"italic\":false}"
+			},
+			"CustomModelData":1,
+			"AttributeModifiers": [{"AttributeName":"generic.attack_damage","Name":"generic.attack_damage","Amount":3,"Operation":0,"UUID":[1116976969,-498644449,-2945680755,1617878111,"nbtcrafting:array_type=i"],"Slot":"mainhand"},{"AttributeName":"generic.attack_speed","Name":"generic.attack_speed","Amount":2.9,"Operation":0,"UUID":[1996976942,-498643249,-2942220755,1617878111,"nbtcrafting:array_type=i"],"Slot":"mainhand"}]
+		}
+    }
+}

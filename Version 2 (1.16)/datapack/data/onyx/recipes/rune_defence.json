@@ -1,0 +1,26 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:carrot_on_a_stick",
+		"data": {
+				"CustomModelData":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_chestplate"
+    },
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "count": 1,
+		"data": {
+				"display": {
+					"Name": "{\"text\":\"Enchanted Rune\",\"color\":\"white\"}",
+					"Lore": ["{\"text\":\"Defence\",\"color\":\"blue\"}"]
+				},
+				"Enchantments": [{}],
+				"CustomModelData":1,
+				"AttributeModifiers": [{"AttributeName":"generic.armor","Name":"generic.armor","Amount":10,"Operation":0,"UUID":[1996973999,-498643249,-2945680755,1617878268,"nbtcrafting:array_type=i"],"Slot":"offhand"}]
+		}
+    },
+    "levels": 10
+}

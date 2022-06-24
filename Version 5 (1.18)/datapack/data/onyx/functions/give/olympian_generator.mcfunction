@@ -1,0 +1,1 @@
+give @p item_frame{display:{Name:'{"text":"Olympian Generator","italic":false}'},CustomModelData:107b,EntityTag:{Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:107b}},Invulnerable:1b,Invisible:1b,Tags:["olympian_generator"],Fixed:1b}} 1

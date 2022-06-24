@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "___",
+        "/ /",
+        "/ /"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:acacia_planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Acacia Table\",\"italic\":false}"
+				},
+				"CustomModelData":121,
+				"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":121}},"Invulnerable": 1, "Invisible": 1, "Tags": ["acacia_table"], "Fixed": 1}
+		}
+    }
+}

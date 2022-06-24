@@ -1,0 +1,1 @@
+give @p apple{display:{Name:'{"text":"Lemon","italic":false}'},CustomModelData:4} 1

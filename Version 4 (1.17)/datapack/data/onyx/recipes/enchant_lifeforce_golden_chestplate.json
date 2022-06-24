@@ -1,0 +1,30 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:golden_chestplate"
+    },
+    "ingredient": {
+        "item": "minecraft:enchanted_book",
+		"data":{
+			"lifeForceEnchant":1
+		}
+    },
+    "result": {
+        "item": "minecraft:golden_chestplate",
+		"data": {
+            "$": {
+                "value": "base",
+                "paths": {
+                    "/display.Lore\\[\\d+\\]/": "append"
+                }
+            },
+			"lifeForceEnchant":1,
+			"Enchantments": [{}],
+			"display": {
+				"Lore": ["{\"text\":\"Life Force\",\"color\":\"gray\",\"italic\":false}"]
+			},
+			"AttributeModifiers": [{"AttributeName":"generic.max_health","Name":"generic.max_health","Amount":4,"Operation":0,"UUID":[4206973360,-498333249,-2945611111,1617878268,"nbtcrafting:array_type=i"],"Slot":"chest"},{"AttributeName":"generic.armor","Name":"generic.armor","Amount":5,"Operation":0,"UUID":[4206973360,-498311111,-2945611111,1617878268,"nbtcrafting:array_type=i"],"Slot":"chest"}]
+        }
+    },
+    "levels": 4
+}

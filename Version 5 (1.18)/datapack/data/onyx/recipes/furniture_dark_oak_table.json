@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "___",
+        "/ /",
+        "/ /"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:dark_oak_planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Dark Oak Table\",\"italic\":false}"
+				},
+				"CustomModelData":119,
+				"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":119}},"Invulnerable": 1, "Invisible": 1, "Tags": ["dark_oak_table"], "Fixed": 1}
+		}
+    }
+}

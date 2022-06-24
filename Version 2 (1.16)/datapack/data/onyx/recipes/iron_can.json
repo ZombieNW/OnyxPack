@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        { 
+			"item": "minecraft:glass_bottle" 
+		}
+    ],
+    "result": {
+        "item": "minecraft:iron_ingot",
+        "count": 4,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Soda Can\",\"color\":\"white\"}"
+				},
+				"CustomModelData":1
+			}
+    }
+}

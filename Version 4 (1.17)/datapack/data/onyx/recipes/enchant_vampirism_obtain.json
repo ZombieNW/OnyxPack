@@ -1,0 +1,20 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:book"
+    },
+    "ingredient": {
+        "item": "minecraft:ghast_tear"
+    },
+    "result": {
+        "item": "minecraft:enchanted_book",
+		"data": {
+			"vampirismEnchant":1,
+			"Enchantments": [{}],
+			"display": {
+				"Lore": ["{\"text\":\"Vampirism\",\"color\":\"gray\",\"italic\":false}"]
+			}
+        }
+    },
+    "levels": 1
+}

@@ -1,0 +1,26 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:diamond_axe"
+    },
+    "ingredient": {
+        "item": "minecraft:blue_dye",
+		"data": {
+			"CustomModelData":2
+		}	
+    },
+    "result": {
+		"item": "minecraft:diamond_axe",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Enderite Axe\",\"italic\":false}"
+			},
+			"$": "$ base",
+			"holdHaste": true,
+			"CustomModelData":1,
+			"AttributeModifiers": [{"AttributeName":"generic.attack_damage","Name":"generic.attack_damage","Amount":11,"Operation":0,"UUID":[1116973111,-498644449,-2945680755,1644878111,"nbtcrafting:array_type=i"],"Slot":"mainhand"},{"AttributeName":"generic.attack_speed","Name":"generic.attack_speed","Amount":1,"Operation":0,"UUID":[1994203111,-498643249,-2942220755,1617878111,"nbtcrafting:array_type=i"],"Slot":"mainhand"}]
+		}
+    },
+    "levels": 4
+}

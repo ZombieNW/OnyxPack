@@ -1,0 +1,24 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:diamond_boots"
+    },
+    "ingredient": {
+        "item": "minecraft:enchanted_book",
+		"data":{
+			"display": {
+					"Lore": ["{\"text\":\"Speed I\",\"color\":\"gray\",\"italic\":false}"]
+			}
+		}
+    },
+    "result": {
+        "item": "minecraft:diamond_boots",
+		"data": {
+            "$": "$ b0",
+            "display": {
+					"Lore": ["{\"text\":\"Speed I\",\"color\":\"gray\",\"italic\":false}"]
+			}
+        }
+    },
+    "levels": 1
+}

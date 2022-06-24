@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " F#",
+        "FUF",
+        "NF "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_star"
+        },
+		"F": {
+            "item": "minecraft:fire_charge"
+        },
+		"U": {
+            "item": "minecraft:netherite_block"
+        },
+        "N": {
+            "item": "minecraft:diamond_sword",
+			"data": {
+				"CustomModelData":1
+			}	
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_sword",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Netherblade\",\"color\":\"white\"}"
+				},
+				"Enchantments": [{"lvl": 40, "id": "minecraft:sharpness"},{"lvl": 2, "id": "minecraft:fire_aspect"}],
+				"CustomModelData":2
+			}
+    }
+}

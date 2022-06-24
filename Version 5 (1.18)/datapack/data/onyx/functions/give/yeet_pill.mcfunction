@@ -1,0 +1,1 @@
+give @p cookie{display:{Name:'{"text":"Yeet Pill","italic":false}',Lore:['{"text":"Yeet?"}','{"text":"Yeet?!?"}']},CustomModelData:2,yeetPill:1b} 1

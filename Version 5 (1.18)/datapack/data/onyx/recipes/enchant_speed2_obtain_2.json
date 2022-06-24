@@ -1,0 +1,26 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:enchanted_book",
+		"data":{
+			"speed1Enchant":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:enchanted_book",
+		"data":{
+			"speed1Enchant":1
+		}
+    },
+    "result": {
+        "item": "minecraft:enchanted_book",
+		"data": {
+			"speed2Enchant":1,
+			"Enchantments": [{}],
+			"display": {
+				"Lore": ["{\"text\":\"Speed II\",\"color\":\"gray\",\"italic\":false}"]
+			}
+        }
+    },
+    "levels": 1
+}

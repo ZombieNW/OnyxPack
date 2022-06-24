@@ -1,0 +1,25 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:diamond_pickaxe"
+    },
+    "ingredient": {
+        "item": "minecraft:blue_dye",
+		"data": {
+			"CustomModelData":2
+		}	
+    },
+    "result": {
+		"item": "minecraft:diamond_pickaxe",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Enderite Pickaxe\",\"italic\":false}"
+				},
+				"$": "$ base",
+				"holdHaste": true,
+				"CustomModelData":1
+		}
+    },
+    "levels": 4
+}

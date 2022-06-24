@@ -1,0 +1,26 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{SkullOwner:{Id:[I;-1169070692,-186692672,-1817619055,149098001],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBiM2E0MDNiODBjMmZmZTdiMzY1OTZmZDgwOWQ1NWM2MjRlN2M0MTQzYzZmZDYwYjFkNjJkMTU2MjkwYzU2OSJ9fX0=\"}]}}}"
+						},
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "entity.minecraft.villager.weaponsmith",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:egg"
+    },
+    "result": {
+		"item": "minecraft:apple",
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Cooked Egg\",\"italic\":false}"
+			},
+			"CustomModelData": 2
+		}
+	},
+    "experience": 0.2,
+    "cookingtime": 200
+}

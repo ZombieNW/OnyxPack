@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  U",
+        " U ",
+        "#  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":3
+			}	
+        },
+        "U": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":2
+			}
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_sword",
+        "count": 1,
+		"data":{
+				"HideFlags": 1,
+				"display": {
+					"Name": "{\"text\":\"Thing\",\"obfuscated\":true}"
+				},
+				"Enchantments": [{"lvl": 9999, "id": "minecraft:sharpness"},{"lvl": 10, "id": "minecraft:looting"}],
+				"CustomModelData":3
+			}
+    }
+}

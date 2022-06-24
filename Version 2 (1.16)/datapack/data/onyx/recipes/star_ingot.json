@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#N#",
+        "NUN",
+        "#N#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":4
+			}	
+        },
+        "U": {
+            "item": "minecraft:nether_star"
+        },
+        "N": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":6
+			}	
+        }
+    },
+    "result": {
+        "item": "minecraft:blue_dye",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Star Ingot\",\"color\":\"white\"}"
+				},
+				"CustomModelData":5
+		}
+    }
+}

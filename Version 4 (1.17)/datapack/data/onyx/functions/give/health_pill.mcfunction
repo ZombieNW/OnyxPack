@@ -1,0 +1,1 @@
+give @p cookie{display:{Name:'{"text":"Health Pill","italic":false}',Lore:['{"text":"Regeneration"}','{"text":"Health Restore"}']},CustomModelData:1,healthPill:1b} 1

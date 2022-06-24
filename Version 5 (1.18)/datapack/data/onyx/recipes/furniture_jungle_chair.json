@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        "###",
+        "/ /"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:jungle_planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Jungle Chair\",\"italic\":false}"
+			},
+			"CustomModelData":113,
+			"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":113}},"Invulnerable": 1, "Invisible": 1, "Tags": ["jungle_chair"], "Fixed": 1}
+		}
+    }
+}

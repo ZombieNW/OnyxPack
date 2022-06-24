@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bread",
+			"count": 1,
+			"data": {
+				"CustomModelData":4
+			}
+        },
+		{
+            "item": "minecraft:paper"
+        }
+    ],
+    "result": {
+        "item": "minecraft:golden_carrot",
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Ice Cream Cone\",\"color\":\"white\"}"
+				},
+				"CustomModelData":5
+		}
+    }
+}

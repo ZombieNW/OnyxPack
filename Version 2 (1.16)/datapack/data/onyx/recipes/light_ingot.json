@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#N#",
+        "NUN",
+        "#N#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_block"
+        },
+        "U": {
+            "item": "minecraft:nether_star"
+        },
+        "N": {
+            "item": "minecraft:sea_lantern"
+        }
+    },
+    "result": {
+        "item": "minecraft:blue_dye",
+        "count": 4,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Light Ingot\",\"color\":\"white\"}"
+				},
+				"CustomModelData":4
+		}
+    }
+}

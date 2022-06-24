@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:oak_sapling"
+        },
+        {
+            "item": "minecraft:flower_pot"
+        }
+    ],
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Oak Sapling Pot\",\"italic\":false}"
+				},
+				"CustomModelData":124,
+				"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":124}},"Invulnerable": 1, "Invisible": 1, "Tags": ["oak_sapling_pot"], "Fixed": 1}
+		}
+    }
+}

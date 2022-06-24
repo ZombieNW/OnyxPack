@@ -1,0 +1,8 @@
+{
+	"values": [
+		"timber:init",
+		"timber:main",
+		"custom_music_discs_dp:setup_load",
+		"onyx:load"
+	]
+}

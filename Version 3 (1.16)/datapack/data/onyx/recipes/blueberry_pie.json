@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:apple",
+			"data":{
+				"CustomModelData": 4
+			}
+        },
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "minecraft:sugar"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cooked_porkchop",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Blueberry Pie\",\"italic\":false}"
+			},
+			"CustomModelData": 3
+		}
+    }
+}

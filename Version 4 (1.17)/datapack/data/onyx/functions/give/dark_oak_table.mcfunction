@@ -1,0 +1,1 @@
+give @p item_frame{display:{Name:'{"text":"Dark Oak Table","italic":false}'},CustomModelData:119b,EntityTag:{Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:119b}},Invulnerable:1b,Invisible:1b,Tags:["dark_oak_table"],Fixed:1b}} 1

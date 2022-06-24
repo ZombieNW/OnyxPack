@@ -1,0 +1,23 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "minecraft:iron_ingot",
+		"data": {
+				"CustomModelData":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:golden_apple"   
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "data": {
+            "display": {
+					"Name": "{\"text\":\"Golden Apple Soda\",\"color\":\"white\"}"
+			},
+			"CustomModelData": 4,
+			"CustomPotionEffects": [{"Id":10,"Amplifier":50,"Duration":600}],
+			"CustomPotionColor":16777215
+        }
+    }
+}

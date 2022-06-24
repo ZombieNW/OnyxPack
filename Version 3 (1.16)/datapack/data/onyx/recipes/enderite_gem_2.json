@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:item_frame",
+			"data":{
+				"CustomModelData":100
+			}
+        }
+    ],
+    "result": {
+        "item": "minecraft:blue_dye",
+        "count": 9,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Enderite Gem\",\"color\":\"white\"}"
+				},
+				"CustomModelData":2
+		}
+    }
+}

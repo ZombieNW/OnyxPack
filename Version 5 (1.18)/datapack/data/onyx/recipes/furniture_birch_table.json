@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "___",
+        "/ /",
+        "/ /"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:birch_planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Birch Table\",\"italic\":false}"
+				},
+				"CustomModelData":118,
+				"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":118}},"Invulnerable": 1, "Invisible": 1, "Tags": ["birch_table"], "Fixed": 1}
+		}
+    }
+}

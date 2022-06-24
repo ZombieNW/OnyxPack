@@ -1,0 +1,1 @@
+give @p item_frame{display:{Name:'{"text":"Cherry Tree Sapling","italic":false}'},CustomModelData:109b,EntityTag:{Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:109b}},Invulnerable:1b,Invisible:1b,Tags:["cherry_sapling"],Fixed:1b}} 1

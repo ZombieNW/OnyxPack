@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":8
+			}
+        }
+    },
+    "result": {
+        "item": "minecraft:blue_dye",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Blackstar Nugget\",\"color\":\"white\"}"
+				},
+				"CustomModelData":9
+		}
+    }
+}

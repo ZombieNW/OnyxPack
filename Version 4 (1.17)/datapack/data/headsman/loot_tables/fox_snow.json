@@ -1,0 +1,43 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{SkullOwner:{Id:[I;-1299416143,-1230419589,-1976749208,1994939037],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0MzYzNzdlYjRjNGI0ZTM5ZmIwZTFlZDg4OTlmYjYxZWUxODE0YTkxNjliOGQwODcyOWVmMDFkYzg1ZDFiYSJ9fX0=\"}]}}}"
+						},
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "entity.minecraft.fox",
+								"italic": false
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{SkullOwner:{Id:[I;1058047511,-13808160,-1717229142,-312986692],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUzNDVhNTIwOWI2MjZkNjk5OTlmZGFmOWI3NjczNWQ2MDRhMWExODk5NjhlNmI4OWI0ZWQ1ZGJkMGZmMTA2YiJ9fX0=\"}]}}}"
+						},
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "entity.minecraft.fox",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

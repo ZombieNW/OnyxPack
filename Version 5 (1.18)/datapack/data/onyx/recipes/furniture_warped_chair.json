@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        "###",
+        "/ /"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:warped_planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Warped Chair\",\"italic\":false}"
+			},
+			"CustomModelData":116,
+			"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":116}},"Invulnerable": 1, "Invisible": 1, "Tags": ["warped_chair"], "Fixed": 1}
+		}
+    }
+}

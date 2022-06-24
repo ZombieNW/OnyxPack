@@ -1,0 +1,26 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:carrot_on_a_stick",
+		"data": {
+				"CustomModelData":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:tropical_fish"
+    },
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "count": 1,
+		"data": {
+				"display": {
+					"Name": "{\"text\":\"Enchanted Rune\",\"color\":\"white\"}",
+					"Lore": ["{\"text\":\"Dolphin's Grace\",\"color\":\"blue\"}"]
+				},
+				"Enchantments": [{}],
+				"CustomModelData":1,
+				"dolphin": 1
+		}
+    },
+    "levels": 10
+}

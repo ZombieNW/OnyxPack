@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "___",
+        "/ /",
+        "/ /"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:crimson_planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Crimson Table\",\"italic\":false}"
+				},
+				"CustomModelData":122,
+				"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":122}},"Invulnerable": 1, "Invisible": 1, "Tags": ["crimson_table"], "Fixed": 1}
+		}
+    }
+}

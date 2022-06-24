@@ -1,0 +1,26 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{SkullOwner:{Id:[I;-1965159641,-849657300,-1414942922,1700895786],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU5M2FmN2UxMjkyNDk4N2YyYmUzZmEyMTQyYmVlZDM4MzY3MTY0MDI4NWRlZWI4ZDIxYjcyYTQ5NmRkZDlhNCJ9fX0=\"}]}}}"
+						},
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "entity.minecraft.parrot",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

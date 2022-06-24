@@ -1,0 +1,20 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:book"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_axe"
+    },
+    "result": {
+        "item": "minecraft:enchanted_book",
+		"data": {
+			"timberEnchant":1,
+			"Enchantments": [{}],
+			"display": {
+				"Lore": ["{\"text\":\"Timber\",\"color\":\"gray\",\"italic\":false}"]
+			}
+        }
+    },
+    "levels": 1
+}

@@ -1,0 +1,1 @@
+give @p enchanted_book{display:{Lore:['{"text":"Combat","color":"blue","italic":false}','{"text":"Timber","color":"gray","italic":false}']},timberEnchant:1b} 1

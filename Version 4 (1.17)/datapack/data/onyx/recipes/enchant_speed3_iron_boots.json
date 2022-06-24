@@ -1,0 +1,29 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:iron_boots"
+    },
+    "ingredient": {
+        "item": "minecraft:enchanted_book",
+		"data":{
+			"speed3Enchant":1
+		}
+    },
+    "result": {
+        "item": "minecraft:iron_boots",
+		"data": {
+            "$": {
+                "value": "base",
+                "paths": {
+                    "/display.Lore\\[\\d+\\]/": "append"
+                }
+            },
+			"Enchantments": [{}],
+			"display": {
+				"Lore": ["{\"text\":\"Speed III\",\"color\":\"gray\",\"italic\":false}"]
+			},
+			"AttributeModifiers": [{"AttributeName":"generic.movement_speed","Name":"generic.movement_speed","Amount":0.3,"Operation":1,"UUID":[4206973360,-498333249,-2945611111,1617878268,"nbtcrafting:array_type=i"],"Slot":"feet"},{"AttributeName":"generic.armor","Name":"generic.armor","Amount":2,"Operation":0,"UUID":[4206973360,-498311111,-2945611111,1617878268,"nbtcrafting:array_type=i"],"Slot":"feet"}]
+        }
+    },
+    "levels": 4
+}

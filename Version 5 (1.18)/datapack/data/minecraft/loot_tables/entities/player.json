@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "killer_player",
+              "lore": [
+                [
+                  {
+                    "text": "§rKilled by §r§e"
+                  },
+                  {
+                    "selector": "@s"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:fill_player_head",
+              "entity": "this"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "nbt": "{SelectedItem:{tag:{headmanEnchant:1b}}}"
+              }
+            },
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

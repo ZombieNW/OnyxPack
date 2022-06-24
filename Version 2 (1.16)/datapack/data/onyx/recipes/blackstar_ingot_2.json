@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:item_frame",
+			"data":{
+				"CustomModelData":107
+			}
+        }
+    ],
+    "result": {
+        "item": "minecraft:blue_dye",
+        "count": 9,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Blackstar Ingot\",\"color\":\"white\"}"
+				},
+				"CustomModelData":1
+		}
+    }
+}

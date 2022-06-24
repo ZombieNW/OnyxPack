@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:apple",
+			"data": {
+				"CustomModelData": 1
+			}
+        },
+        {
+            "item": "minecraft:paper"
+        }
+    ],
+    "result": {
+        "item": "minecraft:bread",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Banana Muffin\",\"italic\":false}"
+			},
+			"CustomModelData": 3
+		}
+    }
+}

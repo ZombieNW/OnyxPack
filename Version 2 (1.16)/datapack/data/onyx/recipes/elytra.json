@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "PBP",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:feather"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        },
+        "B": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":7
+			}
+        }
+    },
+    "result": {
+        "item": "minecraft:elytra",
+        "count": 1
+    }
+}

@@ -1,0 +1,1 @@
+give @p item_frame{display:{Name:'{"text":"Oak Sapling Pot","italic":false}'},CustomModelData:124b,EntityTag:{Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:124b}},Invulnerable:1b,Invisible:1b,Tags:["oak_sapling_pot"],Fixed:1b}} 1

@@ -1,0 +1,1 @@
+give @p music_disc_11{display:{Lore:['{"text":"NapsTheBlock - Omen","color":"gray","bold":false,"italic":false}']},HideFlags:32,CustomModelData:3} 1

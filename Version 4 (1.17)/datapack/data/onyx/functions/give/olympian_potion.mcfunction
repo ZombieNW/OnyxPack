@@ -1,0 +1,1 @@
+give @p potion{display:{Name:'{"text":"Olympian Potion","italic":false}',Lore:['{"text":"May it take you to far away lands","color":"gold"}']},HideFlags:32,olympusPotion:1b,CustomPotionColor:16773544} 1

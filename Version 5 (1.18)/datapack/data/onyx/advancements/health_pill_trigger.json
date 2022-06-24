@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ],
+          "nbt": "{healthPill:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "onyx:pills/health_trigger"
+  }
+}

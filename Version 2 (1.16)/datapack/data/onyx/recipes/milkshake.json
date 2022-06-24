@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "PMP",
+        " P "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bread",
+			"data": {
+				"CustomModelData":4
+			}
+        },
+        "P": {
+            "item": "minecraft:paper"
+        },
+        "M": {
+            "item": "minecraft:milk_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "data": {
+            "display": {
+					"Name": "{\"text\":\"Milkshake\",\"color\":\"white\"}"
+			},
+			"CustomModelData": 8,
+			"CustomPotionEffects": [{"Id":23,"Amplifier":2,"Duration":20}],
+			"CustomPotionColor":16777215
+        }
+    }
+}

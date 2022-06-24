@@ -1,0 +1,23 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:book"
+    },
+    "ingredient": {
+        "item": "minecraft:potion",
+		"data":{
+			"Potion": "minecraft:leaping"
+		}
+    },
+    "result": {
+        "item": "minecraft:enchanted_book",
+		"data": {
+			"leaping1Enchant":1,
+			"Enchantments": [{}],
+			"display": {
+				"Lore": ["{\"text\":\"Leaping I\",\"color\":\"gray\",\"italic\":false}"]
+			}
+        }
+    },
+    "levels": 1
+}

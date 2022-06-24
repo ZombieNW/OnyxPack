@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " NN",
+        " #N",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blaze_rod"
+        },
+        "N": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":1
+			}	
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_axe",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Blackstar Axe\",\"color\":\"white\"}"
+				},
+				"Enchantments": [{"id":"minecraft:efficiency","lvl":6}],
+				"CustomModelData":1
+		}
+    }
+}

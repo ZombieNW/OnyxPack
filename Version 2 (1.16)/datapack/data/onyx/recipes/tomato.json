@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bread",
+			"data": {
+				"CustomModelData":5
+			}
+        },
+        {
+            "item": "minecraft:apple"
+        }
+    ],
+    "result": {
+        "item": "minecraft:bread",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Tomato\",\"color\":\"white\"}"
+				},
+				"CustomModelData":3
+		}
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "minecraft:glass_bottle"
+    },
+    "ingredient": {
+        "item": "minecraft:sweet_berries"   
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "data": {
+            "display": {
+					"Name": "{\"text\":\"Wine\",\"color\":\"white\"}"
+			},
+			"CustomModelData": 7,
+			"CustomPotionEffects": [{"Id":9,"Amplifier":2,"Duration":300}],
+			"CustomPotionColor":16777215
+        }
+    }
+}

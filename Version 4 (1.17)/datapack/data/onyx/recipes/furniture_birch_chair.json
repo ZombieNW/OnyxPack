@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        "###",
+        "/ /"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:birch_planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Birch Chair\",\"italic\":false}"
+			},
+			"CustomModelData":111,
+			"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":111}},"Invulnerable": 1, "Invisible": 1, "Tags": ["birch_chair"], "Fixed": 1}
+		}
+    }
+}

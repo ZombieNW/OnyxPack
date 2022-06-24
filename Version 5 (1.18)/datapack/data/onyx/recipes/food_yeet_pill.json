@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:yellow_dye"
+        },
+        {
+            "item": "minecraft:paper"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cookie",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Yeet Pill\",\"italic\":false}",
+				"Lore": ["{\"text\":\"Yeet?\"}","{\"text\":\"Yeet?!?\"}"]
+			},
+			"CustomModelData":2,
+			"yeetPill":1
+		}
+    }
+}

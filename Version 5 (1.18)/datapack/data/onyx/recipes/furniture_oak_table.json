@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "___",
+        "/ /",
+        "/ /"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:oak_planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Oak Table\",\"italic\":false}"
+				},
+				"CustomModelData":104,
+				"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":104}},"Invulnerable": 1, "Invisible": 1, "Tags": ["oak_table"], "Fixed": 1}
+		}
+    }
+}

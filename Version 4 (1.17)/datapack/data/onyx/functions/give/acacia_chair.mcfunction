@@ -1,0 +1,1 @@
+give @p item_frame{display:{Name:'{"text":"Acacia Chair","italic":false}'},CustomModelData:114b,EntityTag:{Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:114b}},Invulnerable:1b,Invisible:1b,Tags:["acacia_chair"],Fixed:1b}} 1

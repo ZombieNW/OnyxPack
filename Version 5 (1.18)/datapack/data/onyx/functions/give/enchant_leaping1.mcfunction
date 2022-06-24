@@ -1,0 +1,1 @@
+give @p enchanted_book{display:{Lore:['{"text":"Combat","color":"blue","italic":false}','{"text":"Leaping I","color":"gray","italic":false}']},leaping1Enchant:1b} 1

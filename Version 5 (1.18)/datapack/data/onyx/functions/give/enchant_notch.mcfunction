@@ -1,0 +1,1 @@
+give @p enchanted_book{display:{Lore:['{"text":"Combat","color":"blue","italic":false}','{"text":"Notch","color":"gray","italic":false}']},notchEnchant:1b} 1

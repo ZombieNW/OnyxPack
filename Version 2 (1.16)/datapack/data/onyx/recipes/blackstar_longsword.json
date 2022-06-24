@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  #",
+        " # ",
+        "/  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":1
+			}
+        },
+        "/": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_sword",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Blackstar Longsword\",\"color\":\"white\"}"
+				},
+				"Enchantments": [{"id":"minecraft:sharpness","lvl":30}],
+				"CustomModelData":5
+		}
+    }
+}

@@ -1,0 +1,1 @@
+give @p item_frame{display:{Name:'{"text":"Oak Chair","italic":false}'},CustomModelData:101b,EntityTag:{Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:101b}},Invulnerable:1b,Invisible:1b,Tags:["oak_chair"],Fixed:1b}} 1

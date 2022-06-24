@@ -1,0 +1,26 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{SkullOwner:{Id:[I;-825312485,-801488022,-1501815303,15384089],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U1NzExNzI0ZWM3ZjE1NmU3NjgxNjcwOGJmYTY1MzAxMjZmYzY2MTNkZjQzZmYyZmE3NzYyMWJlNTAxZjE5OCJ9fX0=\"}]}}}"
+						},
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "entity.minecraft.zombie_villager",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

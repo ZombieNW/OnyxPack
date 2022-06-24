@@ -1,0 +1,1 @@
+give @p item_frame{display:{Name:'{"text":"Jungle Chair","italic":false}'},CustomModelData:113b,EntityTag:{Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:113b}},Invulnerable:1b,Invisible:1b,Tags:["jungle_chair"],Fixed:1b}} 1

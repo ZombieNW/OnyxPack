@@ -1,0 +1,1 @@
+give @p music_disc_11{display:{Lore:['{"text":"LostAngel - Seaside","color":"gray","bold":false,"italic":false}']},HideFlags:32,CustomModelData:2} 1

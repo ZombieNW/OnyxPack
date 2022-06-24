@@ -1,0 +1,23 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "minecraft:iron_ingot",
+		"data": {
+				"CustomModelData":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:diamond"   
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "data": {
+            "display": {
+					"Name": "{\"text\":\"Pipeline Punch Monster\",\"color\":\"white\"}"
+			},
+			"CustomModelData": 5,
+			"CustomPotionEffects": [{"Id":10,"Amplifier":50,"Duration":600},{"Id":23,"Amplifier":50,"Duration":600}],
+			"CustomPotionColor":16777215
+        }
+    }
+}

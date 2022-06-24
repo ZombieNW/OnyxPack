@@ -1,0 +1,26 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:carrot_on_a_stick",
+		"data": {
+				"CustomModelData":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:conduit"
+    },
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "count": 1,
+		"data": {
+				"display": {
+					"Name": "{\"text\":\"Enchanted Rune\",\"color\":\"white\"}",
+					"Lore": ["{\"text\":\"Conduit Power\",\"color\":\"blue\"}"]
+				},
+				"Enchantments": [{}],
+				"CustomModelData":1,
+				"conduit": 1
+		}
+    },
+    "levels": 10
+}

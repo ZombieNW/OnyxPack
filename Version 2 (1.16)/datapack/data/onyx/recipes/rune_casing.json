@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#OL",
+        "OBO",
+        "FO#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":4
+			}
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "L": {
+            "item": "minecraft:lime_dye"
+        },
+        "B": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":5
+			}
+        },
+        "F": {
+            "item": "minecraft:light_blue_dye"
+        }
+    },
+    "result": {
+		"item": "minecraft:carrot_on_a_stick",
+        "count": 1,
+		"data": {
+				"display": {
+					"Name": "{\"text\":\"Rune Casing\",\"color\":\"white\"}"
+				},
+				"CustomModelData":1
+		}
+	}
+}

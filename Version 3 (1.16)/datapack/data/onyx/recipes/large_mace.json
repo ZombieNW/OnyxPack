@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " / ",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_block"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+		"item": "minecraft:diamond_axe",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Large Mace\",\"italic\":false}"
+			},
+			"CustomModelData":2,
+			"AttributeModifiers": [{"AttributeName":"generic.attack_damage","Name":"generic.attack_damage","Amount":10,"Operation":0,"UUID":[1116973111,-498644449,-2945680755,1644878111,"nbtcrafting:array_type=i"],"Slot":"mainhand"},{"AttributeName":"generic.attack_speed","Name":"generic.attack_speed","Amount":-3,"Operation":0,"UUID":[1994203111,-498643249,-2942220755,1617878111,"nbtcrafting:array_type=i"],"Slot":"mainhand"}]
+		}
+    }
+}

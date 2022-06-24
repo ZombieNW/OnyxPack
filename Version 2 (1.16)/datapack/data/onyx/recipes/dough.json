@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bread"
+        },
+        {
+            "item": "minecraft:water_bucket",
+			"remainder": { "item": "minecraft:bucket" }
+        }
+    ],
+    "result": {
+        "item": "minecraft:bread",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Dough\",\"color\":\"white\"}"
+				},
+				"CustomModelData":2
+		}
+    }
+}

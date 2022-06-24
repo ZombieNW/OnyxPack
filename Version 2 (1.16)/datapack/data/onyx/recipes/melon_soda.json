@@ -1,0 +1,23 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "minecraft:iron_ingot",
+		"data": {
+				"CustomModelData":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:melon_slice"   
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "data": {
+            "display": {
+					"Name": "{\"text\":\"Melon Soda\",\"color\":\"white\"}"
+			},
+			"CustomModelData": 3,
+			"CustomPotionEffects": [{"Id":1,"Amplifier":2,"Duration":200}],
+			"CustomPotionColor":16777215
+        }
+    }
+}

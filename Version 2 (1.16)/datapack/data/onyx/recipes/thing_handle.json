@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " U#",
+        " UU",
+        "U  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":6
+			}	
+        },
+        "U": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":4
+			}
+        }
+    },
+    "result": {
+        "item": "minecraft:blue_dye",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "[{\"text\":\"Thing\",\"obfuscated\":true},{\"text\":\"Handle\",\"color\":\"white\"}]"
+				},
+				"CustomModelData":3
+		}
+    }
+}

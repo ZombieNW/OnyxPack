@@ -1,0 +1,29 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:elytra"
+    },
+    "ingredient": {
+        "item": "minecraft:enchanted_book",
+		"data":{
+			"StoredEnchantments": [{"lvl": 2, "id": "minecraft:protection"}]
+		}
+    },
+    "result": {
+        "item": "minecraft:elytra",
+		"data": {
+            "$": {
+                "value": "base",
+                "paths": {
+                    "/display.Lore\\[\\d+\\]/": "append"
+                }
+            },
+			"Enchantments": [{}],
+			"display": {
+				"Lore": ["{\"text\":\"Protection II\",\"color\":\"gray\",\"italic\":false}"]
+			},
+			"AttributeModifiers": [{"AttributeName":"generic.armor","Name":"generic.armor","Amount":2,"Operation":0,"UUID":[4206973360,-498333249,-2945680755,1617878268,"nbtcrafting:array_type=i"],"Slot":"chest"}]
+        }
+    },
+    "levels": 4
+}

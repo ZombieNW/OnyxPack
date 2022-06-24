@@ -1,0 +1,82 @@
+{
+	"parent": "headsman:mob",
+	"criteria": {
+		"gold": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"direct_entity": {
+						"nbt": "{SelectedItem:{tag:{headmanEnchant:1b}}}"
+					}
+				},
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:5}"
+				}
+			}
+		},
+		"gold0": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"direct_entity": {
+						"nbt": "{SelectedItem:{tag:{headmanEnchant:1b}}}"
+					}
+				},
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:261}"
+				}
+			}
+		},
+		"gold1": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"direct_entity": {
+						"nbt": "{SelectedItem:{tag:{headmanEnchant:1b}}}"
+					}
+				},
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:517}"
+				}
+			}
+		},
+		"gold2": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"direct_entity": {
+						"nbt": "{SelectedItem:{tag:{headmanEnchant:1b}}}"
+					}
+				},
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:773}"
+				}
+			}
+		},
+		"gold3": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"direct_entity": {
+						"nbt": "{SelectedItem:{tag:{headmanEnchant:1b}}}"
+					}
+				},
+				"entity": {
+					"type": "minecraft:horse",
+					"nbt": "{Variant:1029}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["gold", "gold0", "gold1", "gold2", "gold3"]
+	],
+	"rewards": {
+			"function": "headsman:revoke_advance",
+			"loot": ["headsman:horse_gray"]
+	}
+}

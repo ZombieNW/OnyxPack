@@ -1,0 +1,23 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "minecraft:iron_ingot",
+		"data": {
+				"CustomModelData":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:apple"   
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "data": {
+            "display": {
+					"Name": "{\"text\":\"Apple Soda\",\"color\":\"white\"}"
+			},
+			"CustomModelData": 1,
+			"CustomPotionEffects": [{"Id":1,"Amplifier":2,"Duration":200}],
+			"CustomPotionColor":16777215
+        }
+    }
+}

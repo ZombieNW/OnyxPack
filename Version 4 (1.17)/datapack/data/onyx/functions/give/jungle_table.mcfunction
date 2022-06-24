@@ -1,0 +1,1 @@
+give @p item_frame{display:{Name:'{"text":"Jungle Table","italic":false}'},CustomModelData:120b,EntityTag:{Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:120b}},Invulnerable:1b,Invisible:1b,Tags:["jungle_table"],Fixed:1b}} 1

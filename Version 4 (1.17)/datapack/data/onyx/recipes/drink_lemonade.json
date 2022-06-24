@@ -1,0 +1,22 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "minecraft:glass_bottle"
+    },
+    "ingredient": {
+        "item": "minecraft:apple",
+		"data": {
+			"CustomModelData":4
+		}		
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "data": {
+            "display": {
+				"Name": "{\"text\":\"Lemonade\",\"italic\":\"false\"}"
+			},
+			"CustomPotionEffects": [{"Id":6,"Amplifier":0,"Duration":100}],
+			"CustomPotionColor":16775792
+        }
+    }
+}

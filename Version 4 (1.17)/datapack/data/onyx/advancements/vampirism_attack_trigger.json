@@ -1,0 +1,18 @@
+{
+	"parent": "headsman:mob",
+	"criteria": {
+		"gold": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"direct_entity": {
+						"nbt": "{SelectedItem:{tag:{vampirismEnchant:1b}}}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+			"function": "onyx:vampirism_attack_trigger"
+	}
+}

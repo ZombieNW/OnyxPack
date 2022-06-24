@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        "###",
+        "/ /"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dark_oak_planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Dark Oak Chair\",\"italic\":false}"
+			},
+			"CustomModelData":112,
+			"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":112}},"Invulnerable": 1, "Invisible": 1, "Tags": ["dark_oak_chair"], "Fixed": 1}
+		}
+    }
+}

@@ -1,0 +1,1 @@
+give @p item_frame{display:{Name:'{"text":"Warped Table","italic":false}'},CustomModelData:123b,EntityTag:{Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:123b}},Invulnerable:1b,Invisible:1b,Tags:["warped_table"],Fixed:1b}} 1

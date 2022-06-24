@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:item_frame",
+			"data":{
+				"CustomModelData":108
+			}
+        }
+    ],
+    "result": {
+        "item": "minecraft:egg",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"This Egg Exists For Reasons\",\"color\":\"white\"}"
+				}
+		}
+    }
+}

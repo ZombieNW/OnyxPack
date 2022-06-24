@@ -1,0 +1,1 @@
+give @p enchanted_book{display:{Lore:['{"text":"Combat","color":"blue","italic":false}','{"text":"Speed I","color":"gray","italic":false}']},speed1Enchant:1b} 1

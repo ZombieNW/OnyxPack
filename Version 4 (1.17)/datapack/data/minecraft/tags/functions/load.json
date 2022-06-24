@@ -1,0 +1,7 @@
+{
+	"values": [
+		"timber:init",
+		"timber:main",
+		"onyx:load"
+	]
+}

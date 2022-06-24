@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {DeathLootTable:"",AbsorptionAmount:100f,CustomName:'{"text":"Big Chungus","italic":false}',ArmorItems:[{},{},{},{id:"minecraft:flint",Count:1b,tag:{CustomModelData:106}}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999}]}

@@ -1,0 +1,28 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:golden_axe"
+    },
+    "ingredient": {
+        "item": "minecraft:enchanted_book",
+		"data":{
+			"headmanEnchant":1
+		}
+    },
+    "result": {
+        "item": "minecraft:golden_axe",
+		"data": {
+            "$": {
+                "value": "base",
+                "paths": {
+                    "/display.Lore\\[\\d+\\]/": "append"
+                }
+            },
+			"headmanEnchant":1,
+			"display": {
+				"Lore": ["{\"text\":\"Headsman's Glint\",\"color\":\"gray\",\"italic\":false}"]
+			}
+        }
+    },
+    "levels": 4
+}

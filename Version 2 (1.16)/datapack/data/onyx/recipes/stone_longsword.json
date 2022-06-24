@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  #",
+        " # ",
+        "/  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_sword",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Stone Longsword\",\"color\":\"white\"}"
+				},
+				"CustomModelData":1
+		}
+    }
+}

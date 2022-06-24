@@ -1,0 +1,1 @@
+give @p potion{display:{Name:'{"text":"Hot Chocolate","italic":false}'},CustomModelData:1,isInMug:1b,CustomPotionEffects:[{Id:10b,Amplifier:0b,Duration:100}],CustomPotionColor:16777215} 1

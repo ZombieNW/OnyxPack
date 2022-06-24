@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye",
+	  "data": {
+		"CustomModelData":1
+	  }
+    },
+    {
+      "item": "minecraft:blue_dye",
+	  "data": {
+		"CustomModelData":1
+	  }
+    },
+    {
+      "item": "minecraft:blue_dye",
+	  "data": {
+		"CustomModelData":1
+	  }
+    },
+    {
+      "item": "minecraft:blue_dye",
+	  "data": {
+		"CustomModelData":1
+	  }
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_dye",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Enderite Gem\",\"italic\":false}"
+				},
+				"CustomModelData":2
+		}
+  }
+}

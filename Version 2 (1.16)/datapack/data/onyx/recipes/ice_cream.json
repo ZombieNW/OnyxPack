@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:snowball"
+        },
+        {
+            "item": "minecraft:milk_bucket",
+			"remainder": { "item": "minecraft:bucket" }
+        }
+    ],
+    "result": {
+        "item": "minecraft:bread",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Ice Cream\",\"color\":\"white\"}"
+				},
+				"CustomModelData":4
+		}
+    }
+}

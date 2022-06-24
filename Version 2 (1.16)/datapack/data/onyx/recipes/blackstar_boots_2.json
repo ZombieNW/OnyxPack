@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "N N",
+        "N N",
+        "   "
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":1
+			}	
+        }
+    },
+    "result": {
+        "item": "minecraft:leather_boots",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Blackstar Boots\",\"color\":\"aqua\"}",
+					"color": 12931839
+				},
+				
+				"Unbreakable": 1,
+				"AttributeModifiers": [{"AttributeName":"generic.armor","Name":"generic.armor","Amount":6,"Operation":0,"UUID":[1996973360,-498643249,-1945680755,1617878268,"nbtcrafting:array_type=i"],"Slot":"feet"}]
+		}
+    }
+}

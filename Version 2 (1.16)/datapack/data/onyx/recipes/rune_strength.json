@@ -1,0 +1,26 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:carrot_on_a_stick",
+		"data": {
+				"CustomModelData":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_sword"
+    },
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "count": 1,
+		"data": {
+				"display": {
+					"Name": "{\"text\":\"Enchanted Rune\",\"color\":\"white\"}",
+					"Lore": ["{\"text\":\"Strength\",\"color\":\"blue\"}"]
+				},
+				"Enchantments": [{}],
+				"CustomModelData":1,
+				"strength": 1
+		}
+    },
+    "levels": 10
+}

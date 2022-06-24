@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:red_dye"
+        },
+        {
+            "item": "minecraft:paper"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cookie",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Health Pill\",\"italic\":false}",
+				"Lore": ["{\"text\":\"Regeneration\"}","{\"text\":\"Health Restore\"}"]
+			},
+			"CustomModelData":1,
+			"healthPill":1
+		}
+    }
+}

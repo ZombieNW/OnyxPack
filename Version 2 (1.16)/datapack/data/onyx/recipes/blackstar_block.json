@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "NNN",
+        "NNN",
+        "NNN"
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":1
+			}	
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Blackstar Block\",\"color\":\"aqua\"}"
+				},
+				"Enchantments": [{}],
+				"CustomModelData":107,
+				"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":107}},"Invulnerable": 1, "Invisible": 1, "Tags": ["blackstar_block"], "Fixed": 1}
+		}
+    }
+}

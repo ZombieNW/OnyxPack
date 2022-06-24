@@ -1,0 +1,1 @@
+give @p iron_ingot{display:{Name:'{"text":"Mug","italic":false}'},CustomModelData:1b} 1

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:blue_dye"
+        },
+        {
+            "item": "minecraft:paper"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cookie",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Mobility Pill\",\"italic\":false}",
+				"Lore": ["{\"text\":\"Jump Boost II\"}","{\"text\":\"Speed II\"}"]
+			},
+			"CustomModelData":3,
+			"mobilityPill":1
+		}
+    }
+}

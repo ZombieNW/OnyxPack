@@ -1,0 +1,26 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:carrot_on_a_stick",
+		"data": {
+				"CustomModelData":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:enchanted_golden_apple"
+    },
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "count": 1,
+		"data": {
+				"display": {
+					"Name": "{\"text\":\"Enchanted Rune\",\"color\":\"white\"}",
+					"Lore": ["{\"text\":\"Health\",\"color\":\"blue\"}"]
+				},
+				"Enchantments": [{}],
+				"CustomModelData":1,
+				"AttributeModifiers": [{"AttributeName":"generic.max_health","Name":"generic.max_health","Amount":1,"Operation":2,"UUID":[1996976969,-498643249,-2945680755,1617878268,"nbtcrafting:array_type=i"],"Slot":"offhand"}]
+		}
+    },
+    "levels": 10
+}

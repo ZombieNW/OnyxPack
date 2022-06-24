@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        "###",
+        "/ /"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:crimson_planks"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Crimson Chair\",\"italic\":false}"
+			},
+			"CustomModelData":115,
+			"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":115}},"Invulnerable": 1, "Invisible": 1, "Tags": ["crimson_chair"], "Fixed": 1}
+		}
+    }
+}

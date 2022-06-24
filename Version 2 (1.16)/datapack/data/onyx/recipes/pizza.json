@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bread",
+			"data": {
+				"CustomModelData":1
+			}
+        },
+		{
+            "item": "minecraft:bread",
+			"data": {
+				"CustomModelData":2
+			}
+        },
+		{
+            "item": "minecraft:bread",
+			"data": {
+				"CustomModelData":3
+			}
+        }
+    ],
+    "result": {
+        "item": "minecraft:golden_carrot",
+        "count": 6,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Pizza\",\"color\":\"white\"}"
+				},
+				"CustomModelData":1
+		}
+    }
+}

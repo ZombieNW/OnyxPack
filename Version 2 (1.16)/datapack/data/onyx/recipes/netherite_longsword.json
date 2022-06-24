@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:diamond_sword",
+		"data":{
+				"CustomModelData":1
+		}
+    },
+    "addition": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "item": "minecraft:netherite_sword",
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Netherite Longsword\",\"color\":\"white\"}"
+				},
+				"CustomModelData":1
+		}
+    }
+}

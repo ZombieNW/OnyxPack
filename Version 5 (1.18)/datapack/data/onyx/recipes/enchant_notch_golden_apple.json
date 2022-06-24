@@ -1,0 +1,16 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:golden_apple"
+    },
+    "ingredient": {
+        "item": "minecraft:enchanted_book",
+		"data":{
+			"notchEnchant":1
+		}
+    },
+    "result": {
+        "item": "minecraft:enchanted_golden_apple"
+    },
+    "levels": 1
+}

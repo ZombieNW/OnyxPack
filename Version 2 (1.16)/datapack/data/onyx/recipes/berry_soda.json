@@ -1,0 +1,23 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "minecraft:iron_ingot",
+		"data": {
+				"CustomModelData":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:sweet_berries"   
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "data": {
+            "display": {
+					"Name": "{\"text\":\"Berry Soda\",\"color\":\"white\"}"
+			},
+			"CustomModelData": 2,
+			"CustomPotionEffects": [{"Id":1,"Amplifier":2,"Duration":200}],
+			"CustomPotionColor":16777215
+        }
+    }
+}

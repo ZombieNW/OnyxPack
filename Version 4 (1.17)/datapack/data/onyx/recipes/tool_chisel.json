@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i",
+        "/"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:quartz"
+        },
+        "/": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_pickaxe",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Chisel\",\"italic\":false}"
+			},
+			"CustomModelData":1,
+			"Enchantments": [{"id":"minecraft:efficiency","lvl":15}]
+		}
+    }
+}

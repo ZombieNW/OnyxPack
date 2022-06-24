@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:snowball"
+        },
+        {
+            "item": "minecraft:potion",
+			"data": {
+				"CustomModelData": 8
+			}
+        }
+    ],
+    "result": {
+        "item": "minecraft:potion",
+        "data": {
+            "display": {
+					"Name": "{\"text\":\"Frosty\",\"color\":\"white\"}"
+			},
+			"CustomModelData": 9,
+			"CustomPotionEffects": [{"Id":23,"Amplifier":2,"Duration":20}],
+			"CustomPotionColor":16777215
+        }
+    }
+}

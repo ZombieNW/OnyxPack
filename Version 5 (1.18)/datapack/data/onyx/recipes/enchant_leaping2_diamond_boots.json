@@ -1,0 +1,30 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:diamond_boots"
+    },
+    "ingredient": {
+        "item": "minecraft:enchanted_book",
+		"data":{
+			"leaping2Enchant":1
+		}
+    },
+    "result": {
+        "item": "minecraft:diamond_boots",
+		"data": {
+            "$": {
+                "value": "base",
+                "paths": {
+                    "/display.Lore\\[\\d+\\]/": "append"
+                }
+            },
+			"leaping2Enchant":1,
+			"bootEnchant":1,
+			"Enchantments": [{}],
+			"display": {
+				"Lore": ["{\"text\":\"Leaping II\",\"color\":\"gray\",\"italic\":false}"]
+			}
+        }
+    },
+    "levels": 4
+}

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ],
+          "nbt": "{yeetPill:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "onyx:pills/yeet_trigger"
+  }
+}

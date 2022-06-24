@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "#E#",
+        "#_#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_block"
+        },
+        "E": {
+            "item": "minecraft:emerald"
+        },
+        "_": {
+            "item": "minecraft:stone_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Vending Machine\",\"italic\":false}"
+				},
+				"CustomModelData":108,
+				"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":108}},"Invulnerable": 1, "Invisible": 1, "Tags": ["vending_machine"], "Fixed": 1}
+		}
+    }
+}

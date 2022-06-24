@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ],
+          "nbt": "{mobilityPill:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "onyx:pills/mobility_trigger"
+  }
+}

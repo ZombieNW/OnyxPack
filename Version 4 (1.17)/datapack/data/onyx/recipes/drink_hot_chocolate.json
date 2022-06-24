@@ -1,0 +1,24 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "item": "minecraft:iron_ingot",
+		"data": {
+			"CustomModelData":1
+		}
+    },
+    "ingredient": {
+        "item": "minecraft:cocoa_beans"   
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "data": {
+            "display": {
+				"Name": "{\"text\":\"Hot Chocolate\",\"italic\":\"false\"}"
+			},
+			"CustomModelData": 1,
+			"isInMug":1,
+			"CustomPotionEffects": [{"Id":10,"Amplifier":0,"Duration":100}],
+			"CustomPotionColor":16777215
+        }
+    }
+}

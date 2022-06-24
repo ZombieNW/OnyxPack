@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "T",
+        "i"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:white_wool"
+        },
+        "T": {
+            "item": "minecraft:torch"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:item_frame",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Lamp\",\"italic\":false}"
+				},
+				"CustomModelData":103,
+				"EntityTag": {"Item": {"id": "minecraft:item_frame","Count": 1,"tag": {"CustomModelData":103}},"Invulnerable": 1, "Invisible": 1, "Tags": ["lamp"], "Fixed": 1}
+		}
+    }
+}

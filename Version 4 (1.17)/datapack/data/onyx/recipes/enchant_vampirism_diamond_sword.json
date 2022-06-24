@@ -1,0 +1,29 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:diamond_sword"
+    },
+    "ingredient": {
+        "item": "minecraft:enchanted_book",
+		"data":{
+			"vampirismEnchant":1
+		}
+    },
+    "result": {
+        "item": "minecraft:diamond_sword",
+		"data": {
+            "$": {
+                "value": "base",
+                "paths": {
+                    "/display.Lore\\[\\d+\\]/": "append"
+                }
+            },
+			"vampirismEnchant":1,
+			"Enchantments": [{}],
+			"display": {
+				"Lore": ["{\"text\":\"Vampirism\",\"color\":\"gray\",\"italic\":false}"]
+			}
+        }
+    },
+    "levels": 4
+}

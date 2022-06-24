@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bread",
+			"data": {
+				"CustomModelData":5
+			}
+        },
+        {
+            "item": "minecraft:grass"
+        }
+    ],
+    "result": {
+        "item": "minecraft:bread",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Lettuce\",\"color\":\"white\"}"
+				},
+				"CustomModelData":6
+		}
+    }
+}

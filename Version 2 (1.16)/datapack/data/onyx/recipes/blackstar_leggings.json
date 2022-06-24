@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "NNN",
+        "N N",
+        "N N"
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:blue_dye",
+			"data": {
+				"CustomModelData":1
+			}	
+        }
+    },
+    "result": {
+        "item": "minecraft:leather_leggings",
+        "count": 1,
+		"data":{
+				"display": {
+					"Name": "{\"text\":\"Blackstar Leggings\",\"color\":\"aqua\"}",
+					"color": 12931839
+				},
+				
+				"Unbreakable": 1,
+				"AttributeModifiers": [{"AttributeName":"generic.armor","Name":"generic.armor","Amount":10,"Operation":0,"UUID":[2996973360,-498643249,-1945680755,1617878268,"nbtcrafting:array_type=i"],"Slot":"legs"}]
+		}
+    }
+}

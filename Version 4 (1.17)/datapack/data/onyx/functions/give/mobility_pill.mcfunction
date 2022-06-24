@@ -1,0 +1,1 @@
+give @p cookie{display:{Name:'{"text":"Mobility Pill","italic":false}',Lore:['{"text":"Jump Boost II"}','{"text":"Speed II"}']},CustomModelData:3,mobilityPill:1b} 1

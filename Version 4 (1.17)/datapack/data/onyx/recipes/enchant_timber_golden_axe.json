@@ -1,0 +1,29 @@
+{
+    "type": "nbtcrafting:anvil",
+    "base": {
+        "item": "minecraft:golden_axe"
+    },
+    "ingredient": {
+        "item": "minecraft:enchanted_book",
+		"data":{
+			"timberEnchant":1
+		}
+    },
+    "result": {
+        "item": "minecraft:golden_axe",
+		"data": {
+            "$": {
+                "value": "base",
+                "paths": {
+                    "/display.Lore\\[\\d+\\]/": "append"
+                }
+            },
+			"timberEnchant":1,
+			"Enchantments": [{}],
+			"display": {
+				"Lore": ["{\"text\":\"Timber\",\"color\":\"gray\",\"italic\":false}"]
+			}
+        }
+    },
+    "levels": 4
+}

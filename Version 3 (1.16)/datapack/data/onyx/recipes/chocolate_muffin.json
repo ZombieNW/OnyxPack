@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:cocoa_beans"
+        },
+        {
+            "item": "minecraft:paper"
+        }
+    ],
+    "result": {
+        "item": "minecraft:bread",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Chocolate Muffin\",\"italic\":false}"
+			},
+			"CustomModelData": 1
+		}
+    }
+}

@@ -1,0 +1,4 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:item_frame",Count:1b,tag:{display:{Name:'{"text":"Lettuce Seeds","italic":false}'},CustomModelData:135,ID:1,EntityTag:{Tags:["lettuce_plant"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:136}},Invulnerable:1b,Invisible:1b,Fixed:1b}}}}
+execute as @s if entity @s[tag=grown] run summon item ~ ~ ~ {Item:{id:"minecraft:item_frame",Count:1b,tag:{display:{Name:'{"text":"Lettuce Seeds","italic":false}'},CustomModelData:135,ID:1,EntityTag:{Tags:["lettuce_plant"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:136}},Invulnerable:1b,Invisible:1b,Fixed:1b}}}}
+execute as @s if entity @s[tag=grown] run summon item ~ ~ ~ {Item:{id:"minecraft:bread",Count:1b,tag:{display:{Name:'{"text":"Strange Berries","italic":false}',Lore:['{"text":"[Strange Plants]","color":"dark_gray","italic":false}']},CustomModelData:111111,ID:2}}}
+kill @s

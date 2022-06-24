@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#L#",
+        "LBL",
+        "ILI"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:string"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        },
+        "B": {
+            "item": "minecraft:barrel"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+		"data":{
+			"display": {
+				"Name": "{\"text\":\"Backpack\",\"italic\":\"false\"}"
+			},
+			"mf7": 0,
+			"CustomModelData": 1,
+			"Items": [{"id":"minecraft:structure_void","Count":1,"Slot":26,"tag":{"mf7":1,"display":{"Name":{"text":"Close","color":"red","italic":false}}}}]
+		}
+    }
+}
