@@ -12,5 +12,5 @@ Download the [NBT-Crafting API](https://www.curseforge.com/minecraft/mc-mods/nbt
 Once you've installed all that just add the cooresponding datapack to the server and load the cooresponding resourcepack.
 
 ## Usage
-For Version 1, run the command /function onyx:give_manual
-For Versions 2-5, I've supplied wikis that explain each addition in the directory.
+For Version 1-2, run the command /function onyx:give_manual
+For Versions 3-5, I've supplied wikis that explain each addition in the directory.
