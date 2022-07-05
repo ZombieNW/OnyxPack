@@ -2,6 +2,11 @@
 ### _Datapack/Resourcepack Combination That Adds Various Content To Minecraft_
 ![Languages](https://badgen.net/badge/language/MCFunction/green)
 
+### A Notice
+Some of the newer versions had a bit of stolen code here and there from other developers, some just full on taking entire features. I did this since it was a private community but now that I'm open sourcing it, here is the original code of the ones I most notably used.
+https://www.youtube.com/watch?v=PQM0cjja0mk
+https://www.planetminecraft.com/data-pack/dee-s-instruments-v1-0/
+
 ## A Dumb (But Important) Ramble
 This repo is all over the place. So I'll explain a little for context. I ran a Minecraft SMP from 2020-2022 called OnyxSMP. The Crown Jewel of the server was a custom datapack/resourcepack combination that added tons of custom content like beverages, food, and furniture. It evolved a lot and the way I challenged myself was by starting over every time we reset the map.
 
